@@ -5,9 +5,9 @@ const userService = require('./user.service');
 
 var gateway = braintree.connect({
   environment: braintree.Environment.Sandbox,
-  merchantId: "REMOVED",
-  publicKey:  "REMOVED",
-  privateKey: "REMOVED"
+  merchantId: "",
+  publicKey:  "",
+  privateKey: ""
 });
 
 
